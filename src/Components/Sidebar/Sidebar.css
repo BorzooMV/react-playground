@@ -1,0 +1,14 @@
+aside {
+  background-color: #fadb14;
+  position: fixed;
+  height: 100%;
+  width: 240px;
+  z-index: 10;
+  left: 0;
+  top: 120px;
+  padding: 10px 20px;
+  box-shadow: 2px 0 3px 0 rgb(0 0 0 / 14%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

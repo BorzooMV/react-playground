@@ -1,0 +1,39 @@
+.Profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Profile .image-container {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.Profile .image-container img {
+  width: auto;
+  height: 100%;
+}
+
+.Profile .info {
+  /* background-color: red; */
+  margin: 20px 0px;
+  /* width: 120px; */
+}
+
+.Profile .info .info-row {
+  /* background-color: magenta; */
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 13px;
+}
+
+.Profile .info .info-row span:nth-child(2) {
+  font-weight: bold;
+}

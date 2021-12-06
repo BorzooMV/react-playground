@@ -1,0 +1,14 @@
+main {
+  background-color: #f5f5f5;
+  position: absolute;
+  left: 260px;
+  top: 120px;
+  right: 0;
+  padding: 20px 50px;
+  padding-bottom: 70px;
+  color: rgba(0, 0, 0, 0.63);
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}

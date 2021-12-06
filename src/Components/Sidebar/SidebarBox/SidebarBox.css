@@ -1,0 +1,10 @@
+.SidebarBox {
+  border-bottom: 4px dashed #fa8c16;
+  width: 90%;
+  height: auto;
+  padding: 20px;
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
