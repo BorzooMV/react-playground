@@ -17,6 +17,10 @@ header nav {
   width: 20%;
 }
 
+header p{
+  color: #000;
+}
+
 header nav ul {
   list-style: none;
   display: flex;

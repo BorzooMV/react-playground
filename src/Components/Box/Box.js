@@ -7,8 +7,7 @@ const Box = (props) => {
             {props.title &&
                 <h2 style={{
                     borderBottom:"2px solid #eee",
-                    paddingBottom:"5px",
-                    marginBottom:"-4px"
+                    paddingBottom:"5px"
                 }}>{props.title}</h2>
             }
             {props.children}

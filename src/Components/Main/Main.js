@@ -1,13 +1,18 @@
 import React from "react";
 import './Main.css';
 import Box from "../Box/Box";
+import Calculator from "../TemperatureCal/Calculator";
+import MassiveData from "../MassiveData/MassiveData";
 
 const Main = () => {
     return(
         <main>
-            <Box title="First Box">
-                <h3>This is Box</h3>
-                <p>This box is my favorite thing here</p>
+            <Box title="Temperature Calculator">
+                <Calculator />
+            </Box>
+
+            <Box title="Page Loader">
+                <MassiveData />
             </Box>
         </main>
     )
