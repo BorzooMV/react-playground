@@ -1,39 +1,11 @@
 import React, { useState } from "react";
 import './Main.css';
-import Box from "../Box/Box";
-import Calculator from "../TemperatureCal/Calculator";
-import LazyPage from "../LazyPage/LazyPage";
-
+import Home from "../Pages/Home/Home";
 const Main = () => {
-    const [boxes,setBoxes] = useState([
-        {
-            'title':"Boiling Temperature Calculator",
-            "child":<Calculator />,
-            "key" : "01"
-        },
-        {
-            'title':"Page Loader",
-            "child":<LazyPage />,
-            "key" : "02"
-        },
-        {
-            'title':"Test Box",
-            "child":'',
-            "key" : "03"
-        }
-    ])
     return(
-        <main>
-            {
-                boxes.map(box => {
-                    return(
-                        <Box title={box.title} key={box.key}>
-                            {box.child}
-                        </Box>
-                    )
-                })
-            }
-        </main>
+        <>
+            <Home />
+        </>
     )
 }
 
