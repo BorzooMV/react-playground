@@ -1,11 +1,13 @@
 import React, { useState } from "react";
 import './Main.css';
 import Home from "../Pages/Home/Home";
+import Documentation from "../Pages/Documentation/Documentation";
+import MainRouter from "../Router/MainRouter";
 const Main = () => {
     return(
-        <>
-            <Home />
-        </>
+            <div class="Main" >
+                <MainRouter />
+            </div>
     )
 }
 

@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Box from '../../Box/Box';
 import Calculator from '../../TemperatureCal/Calculator';
 import LazyPage from '../../LazyPage/LazyPage';
+import './Home.css';
 
 const Home = () => {
     const [boxes,setBoxes] = useState([
