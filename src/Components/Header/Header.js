@@ -1,4 +1,6 @@
 import React from "react";
+import { Link, Router, Route, NavLink } from "react-router-dom";
+import Home from "../Pages/Home/Home";
 import './Header.css';
 
 const Header = () => {
@@ -9,10 +11,10 @@ const Header = () => {
                 <p>A place to practice <strong>ReactJS</strong></p>
             </div>
             <nav>
-                <ul>
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/docs">Documentation</a></li>
-                </ul>
+                <div className="links">
+                        <Link to="/" exact className="navLink">Home</Link>
+                        <Link to="docs" className="navLink">Documentation</Link>
+                </div>
             </nav>
         </header>
     )

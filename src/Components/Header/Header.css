@@ -21,7 +21,7 @@ header p {
   color: #000;
 }
 
-header nav ul {
+header nav .links {
   list-style: none;
   display: flex;
   flex-direction: row-reverse;
@@ -29,7 +29,7 @@ header nav ul {
   align-items: center;
 }
 
-header nav ul li a {
+header nav .links .navLink {
   color: #000;
   text-decoration: none;
   border: 2px solid #333;
@@ -37,6 +37,6 @@ header nav ul li a {
   padding: 10px;
 }
 
-header nav ul li a:hover {
+header nav .links .navLink:hover {
   color: var(--S-Dark);
 }
