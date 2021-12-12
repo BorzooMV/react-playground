@@ -5,6 +5,10 @@ footer {
   width: 100%;
   height: 7 0px;
   z-index: 30;
-  background-color: #ffec3d;
+  background-color: #4eccd7;
   padding: 10px 30px;
+}
+
+footer p{
+  color: #000;
 }

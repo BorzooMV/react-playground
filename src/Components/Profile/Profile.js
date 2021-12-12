@@ -3,7 +3,6 @@ import './Profile.css';
 import users from "./Users.js";
 
 const Profile = () => {
-    console.log("HI")
     return(
         <div className="Profile">
             <div className="image-container">
@@ -21,8 +20,8 @@ const Profile = () => {
                     <span>{users[0]["last_name"] || "Unknown"}</span>
                 </div>
                 <div className="info-row">
-                    <span>Age</span>
-                    <span>{users[0]["age"] || "Unknown"}</span>
+                    <span>ID</span>
+                    <span>{users[0]["id"] || "Unknown"}</span>
                 </div>
             </div>
         </div>

@@ -1,0 +1,27 @@
+:root{
+    --Primary: #4eccd7;
+    --P-Light: #87ffff;
+    --P-Dark: #009ba6;
+    --Secondary: #ff8a65;
+    --S-Light: #ffbb93;
+    --S-Dark: #c75b39;
+  }
+
+  h2 {
+    color: var(--Secondary);
+  }
+  
+  h3 {
+    color: var(--P-Dark);
+  }
+  
+  p {
+    color: var(--P-Dark);
+  }
+  
+  input[type="text"]{
+    padding: 10px 5px;
+    border: 2px solid var(--P-Dark);
+    border-radius: 4px;
+    outline-color: var(--Primary);
+  }

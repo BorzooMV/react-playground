@@ -2,7 +2,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #ffec3d;
+  background-color: #4eccd7;
   position: fixed;
   top: 0;
   left: 0;
@@ -14,17 +14,22 @@ header {
 }
 
 header nav {
-  width: 20%;
+  width: 40%;
 }
 
-header nav ul {
+header p {
+  color: #000;
+}
+
+header nav .links {
   list-style: none;
   display: flex;
-  justify-content: space-between;
+  flex-direction: row-reverse;
+  justify-content: space-evenly;
   align-items: center;
 }
 
-header nav ul li a {
+header nav .links .navLink {
   color: #000;
   text-decoration: none;
   border: 2px solid #333;
@@ -32,6 +37,6 @@ header nav ul li a {
   padding: 10px;
 }
 
-header nav ul li a:hover {
-  color: #777;
+header nav .links .navLink:hover {
+  color: var(--S-Dark);
 }

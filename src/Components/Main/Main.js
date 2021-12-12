@@ -1,15 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 import './Main.css';
-import Box from "../Box/Box";
-
-const Main = () => {
+const Main = (props) => {
     return(
-        <main>
-            <Box title="First Box">
-                <h3>This is Box</h3>
-                <p>This box is my favorite thing here</p>
-            </Box>
-        </main>
+            <div class="Main" >
+                {props.children}
+            </div>
     )
 }
 
