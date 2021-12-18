@@ -1,0 +1,13 @@
+.Buttons{
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px 0 #0000002e;
+    background: var(--Primary);
+    cursor: pointer;
+    color: #000;
+}
+
+.Buttons:hover{
+    background-color: var(--P-Dark);
+}
